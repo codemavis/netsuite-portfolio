@@ -19,7 +19,7 @@ const LatestWork = () => {
             <div class="container-fluid">
                 <div class="row mb-5 no-gutters">
                     <div class="col-sm-6 col-md-6 col-lg-6" data-aos="fade" data-aos-delay="100">
-                        <a href="portfolio-single.html" class="work-thumb">
+                        <a href="/" class="work-thumb">
                             <div class="work-text">
                                 <h2>Custom SuiteScript Solutions</h2>
                                 <p>Business</p>
@@ -29,7 +29,7 @@ const LatestWork = () => {
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-6" data-aos="fade" data-aos-delay="200">
-                        <a href="portfolio-single.html" class="work-thumb">
+                        <a href="/" class="work-thumb">
                             <div class="work-text">
                                 <h2>ERP Integration and Migration</h2>
                                 <p>Design</p>
@@ -39,7 +39,7 @@ const LatestWork = () => {
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-6" data-aos="fade" data-aos-delay="300">
-                        <a href="portfolio-single.html" class="work-thumb">
+                        <a href="/" class="work-thumb">
                             <div class="work-text">
                                 <h2>Financial and Budgeting Solutions</h2>
                                 <p>Business</p>
@@ -49,7 +49,7 @@ const LatestWork = () => {
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-6" data-aos="fade" data-aos-delay="400">
-                        <a href="portfolio-single.html" class="work-thumb">
+                        <a href="/" class="work-thumb">
                             <div class="work-text">
                                 <h2>CRM and Sales Optimization</h2>
                                 <p>Business</p>
@@ -62,7 +62,7 @@ const LatestWork = () => {
 
                 <div class="row mt-5">
                     <div class="col-12 text-center">
-                        <p><a href="portfolio.html" class="btn btn-outline-white px-4 py-3">More Portfolio</a></p>
+                        <p><a href="/projects" class="btn btn-outline-white px-4 py-3">More Portfolio</a></p>
                     </div>
                 </div>
             </div>
