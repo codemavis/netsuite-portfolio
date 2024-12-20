@@ -5,8 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Slider from "react-slick";
 
-import person1 from "../../images/person_1.jpg";
-import person2 from "../../images/person_2.jpg";
+import person1 from "../../assets/images/person_1.jpg";
+import person2 from "../../assets/images/person_2.jpg";
 
 
 const Testimonial = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import hero_2 from '../images/hero_2.jpg'
+import hero_2 from '../assets/images/hero_2.jpg'
 import Creativity from '../module/about/Creativity';
 import MeetOurTeam from '../module/about/MeetOurTeam';
 import Testimonial from '../module/home/Testimonial';

@@ -1,8 +1,8 @@
 import React from 'react'
-import work_1 from "../../images/work_1.jpg";
-import  work_2 from "../../images/work_2.jpg";
-import  work_3 from "../../images/work_3.jpg";
-import work_4 from "../../images/work_4.jpg";
+import work_1 from "../../assets/images/work_1.jpg";
+import  work_2 from "../../assets/images/work_2.jpg";
+import  work_3 from "../../assets/images/work_3.jpg";
+import work_4 from "../../assets/images/work_4.jpg";
 
 const LatestWork = () => {
     return (
@@ -19,7 +19,7 @@ const LatestWork = () => {
             <div class="container-fluid">
                 <div class="row mb-5 no-gutters">
                     <div class="col-sm-6 col-md-6 col-lg-6" data-aos="fade" data-aos-delay="100">
-                        <a href="/" class="work-thumb">
+                        <a href="/solutions?proj=suitescript" class="work-thumb">
                             <div class="work-text">
                                 <h2>Custom SuiteScript Solutions</h2>
                                 <p>Business</p>
@@ -29,7 +29,7 @@ const LatestWork = () => {
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-6" data-aos="fade" data-aos-delay="200">
-                        <a href="/" class="work-thumb">
+                        <a href="/solutions?proj=erp" class="work-thumb">
                             <div class="work-text">
                                 <h2>ERP Integration and Migration</h2>
                                 <p>Design</p>
@@ -39,7 +39,7 @@ const LatestWork = () => {
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-6" data-aos="fade" data-aos-delay="300">
-                        <a href="/" class="work-thumb">
+                        <a href="/solutions?proj=fin" class="work-thumb">
                             <div class="work-text">
                                 <h2>Financial and Budgeting Solutions</h2>
                                 <p>Business</p>
@@ -49,7 +49,7 @@ const LatestWork = () => {
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-6" data-aos="fade" data-aos-delay="400">
-                        <a href="/" class="work-thumb">
+                        <a href="/solutions?proj=crm" class="work-thumb">
                             <div class="work-text">
                                 <h2>CRM and Sales Optimization</h2>
                                 <p>Business</p>

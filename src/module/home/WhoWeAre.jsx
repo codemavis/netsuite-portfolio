@@ -1,7 +1,7 @@
 import React from 'react'
 
-import  about_1 from "../../images/about_1.jpg";
-import work_1 from "../../images/work_1.jpg";
+import  about_1 from "../../assets/images/about_1.jpg";
+import work_1 from "../../assets/images/work_1.jpg";
 
 const WhoWeAre = () => {
     return (

@@ -3,10 +3,10 @@ import emailjs from 'emailjs-com';
 
 const Message = () => {
     const [formData, setFormData] = useState({
-        name: '',
-        phone: '',
-        email: '',
-        message: '',
+        from_name: '',
+        from_phone: '',
+        from_email: '',
+        message_html: '',
     });
 
     const [isSent, setIsSent] = useState(false);
@@ -32,10 +32,10 @@ const Message = () => {
                     setIsSent(true);
                     setErrorMessage('');
                     setFormData({
-                        name: '',
-                        phone: '',
-                        email: '',
-                        message: '',
+                        from_name: '',
+                        from_phone: '',
+                        from_email: '',
+                        message_html: '',
                     });
                 },
                 (error) => {
@@ -57,9 +57,9 @@ const Message = () => {
                                     <label htmlFor="name">Name</label>
                                     <input
                                         type="text"
-                                        id="name"
+                                        id="from_name"
                                         className="form-control"
-                                        value={formData.name}
+                                        value={formData.from_name}
                                         onChange={handleChange}
                                         required
                                     />
@@ -68,9 +68,9 @@ const Message = () => {
                                     <label htmlFor="phone">Phone</label>
                                     <input
                                         type="text"
-                                        id="phone"
+                                        id="from_phone"
                                         className="form-control"
-                                        value={formData.phone}
+                                        value={formData.from_phone}
                                         onChange={handleChange}
                                         required
                                     />
@@ -81,9 +81,9 @@ const Message = () => {
                                     <label htmlFor="email">Email</label>
                                     <input
                                         type="email"
-                                        id="email"
+                                        id="from_email"
                                         className="form-control"
-                                        value={formData.email}
+                                        value={formData.from_email}
                                         onChange={handleChange}
                                         required
                                     />
@@ -94,11 +94,11 @@ const Message = () => {
                                     <label htmlFor="message">Write Message</label>
                                     <textarea
                                         name="message"
-                                        id="message"
+                                        id="message_html"
                                         className="form-control"
                                         cols="30"
                                         rows="8"
-                                        value={formData.message}
+                                        value={formData.message_html}
                                         onChange={handleChange}
                                         required
                                     ></textarea>

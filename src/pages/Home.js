@@ -1,6 +1,6 @@
 import React from 'react';
 
-import hero_2 from '../images/hero_2.jpg'
+import hero_2 from '../assets/images/hero_2.jpg'
 
 import LatestWork from '../module/home/LatestWork';
 import WhoWeAre from '../module/home/WhoWeAre';
